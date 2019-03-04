@@ -1,0 +1,14 @@
+#cmake file for project all
+#author:ooeyusea
+#created:2015-07-08 09:38:00
+
+cmake_minimum_required(VERSION 2.8)
+PROJECT(all)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/depends/hnet/coroutine)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/gate)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/logingate)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/account)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/cache)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/logic)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/id)
+ADD_SUBDIRECTORY(${PROJECT_SOURCE_DIR}/game/friend)
